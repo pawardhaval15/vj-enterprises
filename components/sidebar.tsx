@@ -36,6 +36,11 @@ const Sidebar: React.FC<SidebarProps> = ({ className = "" }) => {
       icon: <CreditCard size={20} />,
     },
     {
+      name: "Invoices",
+      href: "/invoices",
+      icon: <CreditCard size={20} />,
+    },
+    {
       name: "Quotation",
       href: "/quotation",
       icon: <FileText size={20} />,
